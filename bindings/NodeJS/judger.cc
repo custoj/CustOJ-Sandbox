@@ -215,6 +215,7 @@ namespace demo {
         exports->Set(String::NewFromUtf8(isolate,"RESULT_MEMORY_LIMIT_EXCEEDED"),Integer::New(isolate, 3));
         exports->Set(String::NewFromUtf8(isolate,"RESULT_RUNTIME_ERROR"),Integer::New(isolate, 4));
         exports->Set(String::NewFromUtf8(isolate,"RESULT_SYSTEM_ERROR"),Integer::New(isolate, 5));
+        exports->Set(String::NewFromUtf8(isolate,"RESULT_PRESENTATION_ERROR"),Integer::New(isolate, 9));
 
         exports->Set(String::NewFromUtf8(isolate,"ERROR_INVALID_CONFIG"),Integer::New(isolate, -1));
         exports->Set(String::NewFromUtf8(isolate,"ERROR_FORK_FAILED"),Integer::New(isolate, -2));
